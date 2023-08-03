@@ -16,9 +16,12 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ToastrModule } from 'ngx-toastr';
 import { NgxPaginationModule } from 'ngx-pagination';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { UploadFormComponent } from './upload-file/upload-form/upload-form.component';
+import { UploadListComponent } from './upload-file/upload-list/upload-list.component';
+import { UploadDetailsComponent } from './upload-file/upload-details/upload-details.component';
 
 @NgModule({
-  declarations: [AppComponent, AddStudentComponent, EditStudentComponent, StudentListComponent],
+  declarations: [AppComponent, AddStudentComponent, EditStudentComponent, StudentListComponent, UploadFormComponent, UploadListComponent, UploadDetailsComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,

@@ -1,3 +1,4 @@
+@import "~bootstrap/dist/css/bootstrap.css";
 body{font-size:.875rem;font-family:'Poppins', sans-serif;}
 .feather{width:16px;height:16px;vertical-align:text-bottom;}
 /* * Sidebar */
